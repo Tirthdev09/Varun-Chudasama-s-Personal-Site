@@ -1,0 +1,144 @@
+body {
+  margin-top: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #edf0c3;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+h1 {
+  margin-top: 0px;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%;
+  color:  #e6e62e;
+  line-height: normal;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #e6e62e;
+  padding: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #e6e62e;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #cad61e;
+  padding: 50px 0 20px;
+  font-size: small;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-photo {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-photo2 {
+  width: 25%;
+  float: right;
+  margin-right: 30px;
+}
+
+.profile-image {
+  width: 20%;
+  margin-top: 40px;
+}
+
+.intro {
+ width: 30%;
+ margin: auto;
+}
+
+hr {
+  border: dotted #818f8f 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.button {
+  background: #d9d934;
+  background-image: -webkit-linear-gradient(top, #d9d934, #b8842b);
+  background-image: -moz-linear-gradient(top, #d9d934, #b8842b);
+  background-image: -ms-linear-gradient(top, #d9d934, #b8842b);
+  background-image: -o-linear-gradient(top, #d9d934, #b8842b);
+  background-image: linear-gradient(to bottom, #d9d934, #b8842b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #fccc3c;
+  background-image: -webkit-linear-gradient(top, #fccc3c, #d9d934);
+  background-image: -moz-linear-gradient(top, #fccc3c, #d9d934);
+  background-image: -ms-linear-gradient(top, #fccc3c, #d9d934);
+  background-image: -o-linear-gradient(top, #fccc3c, #d9d934);
+  background-image: linear-gradient(to bottom, #fccc3c, #d9d934);
+  text-decoration: none;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.name {
+  text-decoration: underline;
+}
